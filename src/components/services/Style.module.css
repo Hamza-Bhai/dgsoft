@@ -1,0 +1,337 @@
+.main_div1 {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#myVideo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -9;
+}
+/* .first_video {
+  z-index: 1;
+  border: 5px solid red;
+  position: relative;
+}
+.first_video:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+} */
+.mn {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.txt {
+  position: relative;
+  top: 15%;
+  color: white;
+  font-family: "Sailec-Bold";
+  font-size: 12px;
+  padding-left: 120px;
+  width: 100%;
+}
+.main_container {
+  width: 100%;
+  height: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 19vh;
+}
+.container {
+  width: 100%;
+}
+.container a {
+  color: white;
+}
+.lists {
+  width: 60%;
+  margin: auto;
+  height: auto;
+}
+
+.lists > ol > li {
+  list-style: none;
+  height: 30px;
+  width: 100%;
+  padding-bottom: 60px;
+  font-size: 25px;
+  font-family: "Sailec-Bold";
+  counter-increment: my-awesome-counter;
+  transition: all 0.2s linear;
+}
+
+.lists > ol > li::before {
+  content: "0" counter(my-awesome-counter);
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-right: 1.5rem;
+  font-family: "Sailec-Bold";
+  position: relative;
+  top: -4px;
+}
+.lists > ol > li:hover {
+  font-size: 32px;
+  color: white;
+  transform-origin: 20% 40%;
+  width: 100%;
+}
+.txt1 {
+  color: #777777;
+  font-weight: 500;
+  font-family: Sailec, Arial, sans-serif;
+}
+.lists > ol > li:hover .txt1 {
+  display: inline-block;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.bton {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  cursor: pointer;
+  font-family: "Sailec";
+  font-size: 20px;
+  width: 60%;
+}
+.bton a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+}
+.icon {
+  visibility: hidden;
+  transition: all 0.2s ease;
+}
+.lists > ol > li:hover .icon {
+  visibility: visible;
+}
+.lists > ol > li:hover .circle2 {
+  stroke-dasharray: 800;
+  /* stroke-dashoffset: 1200; */
+  animation: dash 3s linear 0.1s infinite alternate;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: -340;
+  }
+  to {
+    stroke-dashoffset: -20;
+  }
+}
+.main_border {
+  margin-right: 35px;
+}
+.bordr {
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: relative;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+}
+.anch:hover .bordr {
+  opacity: 0;
+  transition: all 0.8s ease;
+  transform: scale(1.6);
+}
+.anch:hover .bordrback {
+  opacity: 1;
+  transition: all 0.8s ease;
+  transform: scale(1.6);
+}
+.bordrback {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 5px;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #ff4438;
+  transition: all 0.8s ease;
+}
+.bordr:hover + .bordrback {
+  opacity: 1 !important;
+}
+
+.cir_bton {
+  position: relative;
+  top: 40px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Sailec";
+  color: white;
+}
+@media only screen and (max-width: 1140px) {
+  #myVideo {
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -9;
+  }
+  .txt {
+    padding-left: 25px;
+    top: 16%;
+  }
+  .container {
+    padding-left: 26px;
+    padding-right: 26px;
+  }
+  .lists {
+    width: 100%;
+    height: 100%;
+    padding-left: 11vw;
+    margin: auto;
+  }
+  .lists > ol > li {
+    padding-bottom: 7px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .lists > ol > li:hover {
+    font-size: 30px;
+    color: white;
+    transform-origin: 20% 40%;
+    width: 100%;
+  }
+  .lists {
+    padding-left: 10vw;
+  }
+  .lists > ol > li:hover .txt1 {
+    display: inline-block;
+    padding-left: 0px;
+  }
+  .lists > ol > li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-right: 0.7rem;
+    font-family: "Sailec-Bold";
+    position: relative;
+    top: -4px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .lists > ol > li {
+    margin-left: 7px;
+  }
+  .icon:hover {
+    transform: scale(1.3);
+  }
+
+  .lists > ol > li:hover .txt1 {
+    display: block;
+    padding-left: 0px;
+  }
+  .lists > ol > li::before {
+    top: 35px;
+    right: 5px;
+    color: #515152;
+  }
+  .lists > ol > li:hover:before {
+    color: white;
+  }
+  .txt1 {
+    display: none !important;
+  }
+  .lists {
+    padding-left: 0;
+  }
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .lists > ol {
+    display: flex;
+    justify-content: center;
+  }
+  .lists > ol > li {
+    width: 60px;
+    text-align: center;
+  }
+  .lists > ol > li:hover {
+    width: 60px;
+    text-align: center;
+  }
+  .icon {
+    margin: auto;
+    width: 55px;
+    height: 50px;
+    position: relative;
+    padding-left: 0;
+    left: -9px;
+  }
+  .circle1,
+  .circle2 {
+    cx: 58px;
+  }
+  .anch {
+    display: block !important;
+    text-align: center;
+  }
+  .bton {
+    display: flex;
+    position: relative;
+    bottom: -35px;
+    justify-content: center;
+    margin-top: 135px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    cursor: pointer;
+    font-family: "Sailec";
+    font-size: 20px;
+    width: 60%;
+  }
+  .main_border {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+  }
+  .bordrback {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0px;
+    opacity: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+  }
+  .cir_bton {
+    visibility: visible;
+    margin-top: 25px;
+  }
+  .icon {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 540px) {
+  .cir_bton {
+    visibility: hidden;
+  }
+}

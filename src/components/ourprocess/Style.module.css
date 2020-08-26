@@ -1,0 +1,89 @@
+.main_div {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  padding-top: 95px;
+  /* overflow: hidden; */
+}
+.head_div {
+  max-width: 83.33vw;
+  width: 100%;
+  margin: 0 auto;
+}
+.head_div h1 p {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Sailec-Medium" !important;
+}
+.head_div p {
+  font-size: 1.25em;
+  line-height: 1.8;
+  color: #7e7e80;
+  font-weight: 400;
+  font-family: "Sailec", Arial, sans-serif;
+}
+.head_div h1 {
+  overflow: hidden;
+}
+.main_curi {
+  border: 1px solid blue;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.curi {
+  border: 1px solid red;
+  user-select: none;
+  margin: 234px auto 200px;
+}
+.draw {
+  width: 1234px;
+  height: 605px;
+  /* border: 1px solid green; */
+}
+.ani{
+  overflow: hidden;
+}
+@media (max-width: 1430px) {
+  .curi {
+    transform: scale(0.8);
+  }
+}
+@media (max-width: 1140px) {
+  .head_div {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 26px;
+  }
+  .curi {
+    transform: scale(0.6);
+  }
+}
+@media (max-width: 800px) {
+  .curi {
+    transform: scale(0.6) rotate(90deg);
+  }
+}
+@media (max-width: 540px) {
+  .head_div p {
+    font-size: 5vw;
+  }
+  .head_div h1 p {
+    font-size: 10vw;
+  }
+  .curi {
+    transform: scale(0.51) rotate(90deg);
+    margin: 150px auto 200px;
+    z-index: 1;
+    position: relative;
+    display: table;
+  }
+  .draw {
+    overflow: hidden;
+  }
+  .main_curi {
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,138 @@
+.main_div {
+  padding-bottom: 170px;
+}
+.top_div {
+  padding-top: 220px;
+  padding-bottom: 40px;
+}
+.sub_div {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  margin: auto;
+  padding-left: 4%;
+}
+.number {
+  font-size: 10vw;
+  color: #ff4438;
+  font-family: "Sailec-Bold";
+  padding-right: 50px;
+}
+.text1 {
+  color: black;
+  font-size: 2.1vw;
+  font-family: "Sailec";
+  overflow: hidden;
+}
+.text2 {
+  font-size: 1.4vw;
+  font-family: "Sailec";
+  overflow: hidden;
+}
+.text_div {
+  margin: auto 0;
+  padding-top: 0;
+}
+.img_div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 12%;
+  padding-left: 25%;
+}
+.sub_img {
+  width: 100%;
+  height: 37vw;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/img1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* media query */
+@media (max-width: 1140px) {
+  .sub_div {
+    display: flex;
+    justify-content: flex-start;
+    width: 65%;
+    margin: auto;
+    padding-left: 4%;
+  }
+  .sub_img {
+    width: 100%;
+    height: 48vw;
+  }
+  .img_div {
+    padding-right: 4%;
+    padding-left: 13%;
+  }
+  .top_div {
+    padding-top: 220px;
+  }
+}
+@media (max-width: 800px) {
+  .text {
+    width: 85%;
+  }
+}
+@media (max-width: 640px) {
+  .text1 {
+    font-size: 4vw;
+    width: 65%;
+    line-height: 1;
+  }
+  .text2 {
+    padding-top: 10px;
+    font-size: 1.7vw;
+    font-family: "Sailec";
+    width: 55%;
+  }
+  .top_div {
+    padding-top: 168px;
+  }
+}
+@media (max-width: 540px) {
+  .top_div {
+    padding-top: 180px;
+  }
+  .text1 {
+    font-size: 7vw;
+    width: 85%;
+    line-height: 1;
+  }
+  .text2 {
+    font-size: 4.5vw;
+    font-family: "Sailec";
+    width: 95%;
+  }
+  .sub_div {
+    width: 100%;
+  }
+  .number {
+    font-size: 28vw;
+    color: #ff4438;
+    font-family: "Sailec-Bold";
+    padding-right: 40px;
+  }
+  .text_div {
+    margin: 0;
+    padding-top: 0;
+  }
+  .sub_img {
+    width: 100%;
+    height: 95vw;
+  }
+  .img_div {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .img {
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+  }
+}

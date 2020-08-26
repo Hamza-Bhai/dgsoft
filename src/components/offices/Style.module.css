@@ -1,0 +1,216 @@
+.main_div {
+  padding-bottom: 200px;
+}
+.top_div {
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+.sub_div {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+  margin: auto;
+  padding-left: 4%;
+}
+.number {
+  font-size: 10vw;
+  color: #ff4438;
+  font-family: "Sailec-Bold";
+  padding-right: 50px;
+}
+.text1 {
+  color: black;
+  font-size: 2.1vw;
+  font-family: "Sailec";
+  overflow: hidden;
+}
+.text2 {
+  font-size: 1.4vw;
+  font-family: "Sailec";
+  width: 85%;
+  overflow: hidden;
+}
+.text_div {
+  margin: auto 0;
+  padding-top: 0;
+}
+/* img slide */
+.img_slide_main {
+  overflow: hidden;
+}
+.sub_img_div {
+  display: flex;
+  transform: translateX(27%);
+  width: 100vw;
+}
+.img_div1 {
+  width: 44.5vw;
+  margin-right: 80px;
+}
+.img_div2 {
+  width: 70vw;
+  margin-right: 80px;
+}
+.img_div3 {
+  width: 70vw;
+}
+.img1 {
+  width: 100%;
+  height: 100%;
+}
+.img2 {
+  width: 100%;
+  height: 100%;
+}
+.img3 {
+  width: 100%;
+  height: 100%;
+}
+/* tex_div */
+.txt_div {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.txt1 {
+  display: inline-block;
+  color: #c6c6c7;
+  font-size: 14px;
+  font-family: "Sailec";
+  margin-right: 15px;
+}
+.txt2 {
+  display: inline-block;
+  color: black;
+  font-size: 110%;
+  font-family: "Sailec";
+}
+/* media query */
+@media (max-width: 1140px) {
+  .sub_div {
+    width: 65%;
+    padding-left: 4%;
+  }
+  .text2 {
+    font-size: 1.4vw;
+    font-family: "Sailec";
+    width: 65%;
+  }
+  .sub_img_div {
+    display: flex;
+    transform: translateX(21%);
+    width: 100vw;
+  }
+}
+@media (max-width: 800px) {
+  .main_div {
+    padding-bottom: 240px;
+  }
+  .img_slide_main {
+    margin-right: 5%;
+    overflow: scroll;
+  }
+  .sub_img_div {
+    transform: translateX(10.2%);
+    width: 192vw;
+  }
+  .img_div1 {
+    width: 60vw;
+    margin-right: 40px;
+  }
+  .img_div2 {
+    margin-right: 40px;
+  }
+  .number {
+    font-size: 10vw;
+    color: #ff4438;
+    font-family: "Sailec-Bold";
+    padding-right: 35px;
+  }
+}
+
+@media (max-width: 640px) {
+  .text1 {
+    font-size: 4vw;
+    width: 65%;
+    line-height: 1;
+  }
+  .text2 {
+    padding-top: 10px;
+    font-size: 1.9vw;
+    font-family: "Sailec";
+    width: 50%;
+  }
+}
+@media (max-width: 540px) {
+  img_slide_main {
+  }
+  .txt_div {
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 5px;
+  }
+  .main_div {
+    padding-bottom: 120px;
+  }
+  .top_div {
+    padding-top: 180px;
+  }
+  .text1 {
+    font-size: 7vw;
+    width: 85%;
+    line-height: 1;
+  }
+  .text2 {
+    font-size: 4.4vw;
+    font-family: "Sailec";
+    width: 79%;
+    line-height: 1.1;
+  }
+  .sub_div {
+    width: 100%;
+  }
+  .number {
+    font-size: 27vw;
+    color: #ff4438;
+    font-family: "Sailec-Bold";
+    padding-right: 40px;
+  }
+  .text_div {
+    margin: 0;
+    padding-top: 0;
+  }
+  .img_slide_main {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .sub_img_div {
+    transform: translateX(1.9%);
+    /* width: 350vw; */
+    width: 100vw;
+  }
+  .img_div1 {
+    width: 78vw;
+    margin-right: 20px;
+  }
+  .img_div2 {
+    width: 78vw;
+    margin-right: 20px;
+  }
+  .img_div3 {
+    width: 78vw;
+  }
+  .txt2 {
+    display: inline-block;
+    color: black;
+    font-size: 5vw;
+    font-family: "Sailec";
+  }
+  .txt1 {
+    display: inline-block;
+    color: #c6c6c7;
+    font-size: 17px;
+    font-family: "Sailec";
+    margin-right: 15px;
+  }
+}

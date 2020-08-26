@@ -1,0 +1,191 @@
+.footer {
+  background-color: #161617;
+  padding-top: 105px;
+  padding-bottom: 100px;
+  padding-left: 8%;
+  padding-right: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+.left_div {
+  margin-top: 5px;
+  box-sizing: border-box;
+  padding-left: 3px;
+}
+.left_div > ul > a {
+  color: #7e7e80;
+  font-family: "Sailec";
+  font-size: 13px;
+  margin-right: 15px;
+}
+.left_div > ul {
+  display: flex;
+}
+.txt1 {
+  display: inline-block;
+  margin-top: 45px;
+  font-size: 13px;
+  color: #4b4b4c;
+}
+.txt1 > sup {
+  position: relative;
+  top: -3px;
+  right: 2px;
+  font-size: 9px !important;
+}
+.link {
+  padding-top: 12px;
+}
+.link > a {
+  text-decoration: underline #4b4b4c;
+  padding-bottom: 1px;
+}
+.link > a > li {
+  font-size: 12.5px;
+  color: #4b4b4c;
+}
+
+.right_div {
+  position: relative;
+  top: -10px;
+}
+.right_div > ul {
+  display: flex;
+  padding-right: 70px;
+}
+.right_div > ul > a {
+  font-family: "Sailec";
+  font-size: 14px;
+  margin-right: 24px;
+  color: #7e7e80;
+}
+.active {
+  color: white !important;
+  opacity: 0.9;
+}
+.news {
+  font-family: "Sailec";
+  font-size: 12.5px;
+  color: white;
+  opacity: 0.9;
+  margin-top: 40px;
+}
+.mail {
+  font-family: "Sailec";
+  width: 100%;
+  font-size: 14px;
+  color: #7e7e80;
+  margin-top: 25px;
+  border-bottom: 1px solid #7e7e80;
+  padding-bottom: 9px;
+}
+@media (max-width: 1140px) {
+  .footer {
+    padding-top: 105px;
+    padding-bottom: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}
+@media (max-width: 875px) {
+  .footer {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 3%;
+    /* display: block; */
+    flex-direction: column-reverse;
+  }
+  .mail {
+    font-family: "Sailec";
+    font-size: 14px;
+    color: #7e7e80;
+    margin-top: 25px;
+    border-bottom: 1px solid #7e7e80;
+    padding-bottom: 9px;
+    width: 460px;
+  }
+  .left_div {
+    padding-top: 80px;
+    box-sizing: border-box;
+    padding-left: 3px;
+  }
+}
+@media (max-width: 545px) {
+  .right_div > ul {
+    display: block;
+    padding-right: 70px;
+  }
+  .footer {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+  }
+  .list1 {
+    display: none !important;
+  }
+  .mail {
+    font-family: "Sailec";
+    width: 95%;
+    font-size: 14px;
+    color: #7e7e80;
+    margin-top: 25px;
+    border-bottom: 1px solid #7e7e80;
+    padding-bottom: 9px;
+  }
+  .ul2 {
+    display: flex !important;
+  }
+  .left_div1 {
+    margin-right: 42%;
+  }
+  .left_div1 a {
+    color: #7e7e80;
+  }
+  .left_div1 > a > li {
+    margin-bottom: 20px;
+  }
+  .right_div1 > a > li {
+    margin-bottom: 20px;
+  }
+  .right_div1 a {
+    color: #7e7e80;
+    font-family: "Sailec";
+  }
+  .left_div {
+    margin-top: 5px;
+    box-sizing: border-box;
+    padding-left: 3px;
+  }
+  .left_div > ul > a {
+    color: #7e7e80;
+    font-family: "Sailec";
+    font-size: 13px;
+    margin-right: 15px;
+    display: inline-block !important;
+  }
+  .social_div {
+    display: inline !important;
+  }
+  .social_div > a {
+    margin-bottom: 15px;
+  }
+  .link {
+    display: block !important;
+    padding-top: 12px;
+  }
+  .link > a {
+    display: block !important;
+
+    text-decoration: underline #4b4b4c;
+    padding-bottom: 1px;
+  }
+  .link > a > li {
+    font-size: 12.5px;
+    color: #4b4b4c;
+  }
+}
+@media (min-width: 545px) {
+  .ul2 {
+    display: none !important;
+  }
+}
