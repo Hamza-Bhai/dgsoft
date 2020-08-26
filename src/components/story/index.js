@@ -9,8 +9,12 @@ export default function Story() {
             <div>Our story</div>
           </h3>
         </div>
-        <div className={Style.sec2}></div>
-        <div className={Style.sec3}></div>
+        <div className={Style.txt}>
+          <p className={Style.txt1}>
+            Our name is inspired by the Gordian knot and reflects our efforts in
+          </p>
+          <p className={Style.txt2}>resolving business problems.</p>
+        </div>
       </div>
     </div>
   );

@@ -16,3 +16,31 @@
   margin-bottom: 30px;
   line-height: 1.28125;
 }
+.txt {
+  font-size: 1.38vw;
+  max-width: 45.83vw;
+  margin-bottom: 102px;
+  overflow: hidden;
+  font-family: Sailec, Arial, sans-serif;
+}
+.txt1 {
+}
+.txt2 {
+}
+
+@media (max-width: 1140px) {
+  .txt {
+    font-size: 1.125em;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .txt {
+    max-width: 100vw;
+  }
+}
+@media (max-width: 540px) {
+  .txt {
+    font-size: 1em;
+  }
+}
