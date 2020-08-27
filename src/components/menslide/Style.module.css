@@ -112,6 +112,10 @@
   }
 }
 @media (max-width: 540px) {
+  .img_div {
+    width: 44.5%;
+    height: 100%;
+  }
   .txt {
     display: none;
   }
@@ -124,12 +128,12 @@
     width: 568vw;
   }
   .img_div7 {
-    width: 300vw;
+    width: 500vw;
     display: flex;
     justify-content: flex-end;
   }
   .ig7 {
-    width: 47%;
+    width: 55%;
   }
   .main_div {
     position: relative;

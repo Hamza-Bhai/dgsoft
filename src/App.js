@@ -9,8 +9,8 @@ import "aos/dist/aos.css";
 function App() {
   return (
     <Provider store={store}>
-      {/* <Home /> */}
-      <Services />
+      <Home />
+      {/* <Services /> */}
       {/* <About /> */}
     </Provider>
   );

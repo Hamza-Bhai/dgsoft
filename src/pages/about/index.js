@@ -3,6 +3,8 @@ import Header from "../../components/header";
 import Menu from "../../components/menu";
 import Menslide from "../../components/menslide";
 import Story from "../../components/story";
+import Recognitions from "../../components/recognitions";
+import Initiatives from "../../components/Initiatives";
 
 export default function About() {
   const txt = (
@@ -15,14 +17,16 @@ export default function About() {
   );
   return (
     <div>
-      <Header
+      {/* <Header
         txt1="Making curiosity a"
         txt2="priority"
         para1={txt}
         txt3="true"
-      />
-      <Menslide />
-      <Story />
+      /> */}
+      {/* <Menslide /> */}
+      {/* <Story /> */}
+      <Recognitions />
+      <Initiatives />
       <Menu />
     </div>
   );
