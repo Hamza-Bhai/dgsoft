@@ -35,13 +35,19 @@
   color: #000;
   margin-bottom: 30px;
   line-height: 1.28125;
+  overflow: hidden;
 }
 .txt {
   font-size: 1.38vw;
   max-width: 45.83vw;
   margin-bottom: 102px;
-  overflow: hidden;
   font-family: Sailec, Arial, sans-serif;
+}
+.txt p {
+  overflow: hidden;
+}
+.txt_div {
+  overflow: hidden;
 }
 .head2 {
   font-size: 2.71vw;
@@ -52,6 +58,7 @@
   font-weight: 400;
   color: #000;
   line-height: 1.28125;
+  overflow: hidden;
 }
 .img_div {
   max-width: 48.12vw;

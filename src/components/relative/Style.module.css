@@ -1,0 +1,139 @@
+.main_div {
+  background-color: #f9f9f9;
+  padding: 130px 0;
+  overflow: hidden;
+}
+.containerr {
+  display: flex;
+  max-width: 74.99vw;
+  margin: 0 auto;
+}
+.left {
+  width: 18.75rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+.right {
+  margin-top: -15px;
+}
+.right h3 {
+  max-width: 30vw;
+  margin-bottom: 90px;
+  font-size: 3.4vw;
+  color: #161617;
+  text-transform: none;
+  line-height: normal;
+  font-family: Sailec;
+  letter-spacing: -1px;
+  font-weight: 400;
+}
+.left p {
+  font-weight: 400;
+  font-family: Sailec, Arial, sans-serif;
+  font-size: 0.75em;
+  line-height: 1.83333;
+  letter-spacing: 1px;
+}
+.head_txt {
+  display: flex;
+}
+.sec1 {
+  width: 50%;
+  padding-right: 2vw;
+}
+.sec2 {
+  width: 50%;
+  padding-right: 2vw;
+}
+.sec2 p {
+  min-height: 120px;
+  margin-bottom: 1.04vw;
+  font-size: 1.11vw;
+  line-height: 1.88;
+  font-weight: 400;
+  font-family: Sailec, Arial, sans-serif;
+}
+.sec1 p {
+  min-height: 120px;
+  margin-bottom: 1.04vw;
+  font-size: 1.11vw;
+  line-height: 1.88;
+  font-weight: 400;
+  font-family: Sailec, Arial, sans-serif;
+}
+.secimg1 {
+  margin-bottom: 25px;
+  max-width: 100% !important;
+  height: auto;
+}
+.secimg2 {
+  margin-bottom: 25px;
+  max-width: 100% !important;
+  height: auto;
+}
+
+@media (max-width: 1140px) {
+  .containerr {
+    max-width: 90vw;
+  }
+  .right h3 {
+    font-size: 1.875em;
+  }
+  .sec1 p {
+    font-size: 1em;
+  }
+  .sec2 p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 800px) {
+  .containerr {
+    max-width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 26px;
+  }
+  .right {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 640px) {
+  .main_div {
+    padding: 50px 0;
+  }
+  .head_txt {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec1 p {
+    font-size: 0.75em;
+    min-height: auto;
+    margin-bottom: 15px;
+  }
+  .sec2 p {
+    font-size: 0.75em;
+    min-height: auto;
+    margin-bottom: 15px;
+  }
+  .sec1,
+  .sec2 {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 540px) {
+  .right h3 {
+    font-size: 1.6875em;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+  .sec1 p {
+    font-size: 0.875em;
+  }
+  .sec2 p {
+    font-size: 0.875em;
+  }
+}

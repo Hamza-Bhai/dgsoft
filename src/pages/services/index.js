@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Header from "../../components/header";
 import ServicesData from "../../components/servicesdata";
 import Process from "../../components/ourprocess";
-import Work from "../../components/work";
+import Work from "../../components/ourwork";
 import Menu from "../../components/menu";
 import Footer from "../../components/footer";
 import { gsap } from "gsap";

@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import Style from "./Style.module.css";
 import AOS from "aos";
-export default function About() {
+import { BsArrowRight } from "react-icons/bs";
+
+export default function About(props) {
   useEffect(() => {
     AOS.init({ once: true });
   });
@@ -14,7 +16,7 @@ export default function About() {
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"
           >
-            About us
+            {props.head}
           </p>
         </div>
         <div className={Style.text}>
@@ -23,13 +25,17 @@ export default function About() {
             data-aos-anchor-placement="bottom-bottom"
             data-aos-duration="1000"
           >
-            Get to know us better.
+            {props.para}
           </p>
         </div>
         <div className={Style.circle}>
           <div className={Style.main_border}>
-            <div className={Style.bordr}></div>
-            <div className={Style.bordrback}></div>
+            <div className={Style.bordr}>
+              <BsArrowRight size="14px" />
+            </div>
+            <div className={Style.bordrback}>
+              <BsArrowRight size="10px" className={Style.icn} />
+            </div>
           </div>
         </div>
       </a>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Style from "./Style.module.css";
 import Cardimg1 from "../../assets/images/card1.jpg";
 import Cardimg2 from "../../assets/images/card2.jpg";
@@ -8,17 +8,36 @@ import Cardimg5 from "../../assets/images/card5.jpg";
 import Cardimg6 from "../../assets/images/card6.jpg";
 import Cardimg7 from "../../assets/images/card7.jpg";
 import Cardimg8 from "../../assets/images/card8.jpg";
+// import AOS from "aos";
+
 export default function Recognitions() {
+  useEffect(() => {
+    // AOS.init();
+  });
+
   return (
     <div className={Style.main_div}>
       <div className={Style.sec1}>
         <h2 className={Style.head}>
-          <div>Awards & recognitions</div>
+          <div className={Style.txt_div}>
+            <div
+              data-aos="slide-up"
+              // data-aos-anchor-placement="bottom-bottom"
+              data-aos-once="false"
+              data-aos-duration="1000"
+            >
+              Awards & recognitions
+            </div>
+          </div>
         </h2>
         <div className={Style.para_div}>
-          <p>Analyses have shown that these are 80% cellulose and</p>
-          <p>20% sweat and tears. Also, our CEO wants you to know we</p>
-          <p> have more awards than pictured here.</p>
+          <p className={Style.txt_div}>
+            Analyses have shown that these are 80% cellulose and
+          </p>
+          <p className={Style.txt_div}>
+            20% sweat and tears. Also, our CEO wants you to know we
+          </p>
+          <p className={Style.txt_div}>have more awards than pictured here.</p>
         </div>
       </div>
       <ul className={Style.sec2}>

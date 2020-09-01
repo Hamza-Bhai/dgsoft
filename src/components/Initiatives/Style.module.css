@@ -1,5 +1,8 @@
 .main_div {
 }
+/* .main_slide div {
+  width: 90%;
+} */
 .sec1 {
   max-width: 74.99vw;
   margin: 0 auto;
@@ -27,39 +30,45 @@
   padding-bottom: 117px;
   overflow: hidden;
 }
-
 .slide_div1 {
   padding-left: 12vw;
-  width: 100% !important;
+  padding-right: 48px;
+  width: 105.4% !important;
 }
 .slide_div2 {
-  width: 78% !important;
+  position: relative;
+  left: 7%;
+  width: 82.1% !important;
 }
 .slide_div3 {
-  width: 78% !important;
+  position: relative;
+  left: -3.9%;
+  width: 82.4% !important;
 }
-.slide_div1,
-.slide_div2,
-.slide_div3 {
-  border: 1px solid green !important;
+.slide_div1 img {
+  width: 100%;
 }
-
 .slide_div2 img {
   width: 100%;
-  border: 1px solid red;
 }
 .slide_div3 img {
   width: 100%;
-  border: 1px solid red;
-  /* padding-right: 7 00px; */
 }
-.slide_div1 p {
-  width: 48% !important;
-  font-size: 0.76em;
+.slide_div1 p,
+.slide_div2 p,
+.slide_div3 p {
+  width: 55% !important;
+  font-size: 12px;
   line-height: 1.73;
   font-family: Sailec, Arial, sans-serif;
-  border: 1px solid red;
+  padding-top: 5%;
+}
+.arrow {
+  padding-left: 12vw;
   padding-top: 50px;
+}
+#arr{
+margin-right: 20px;
 }
 @media (max-width: 1140px) {
   .head h3 {
@@ -72,8 +81,28 @@
     padding: 50px 0;
     max-width: 75vw;
   }
-  .slide_div1 p {
-    width: 95% !important;
+  .slide_div1 {
+    padding-left: 12vw;
+    padding-right: 0px;
+    width: 100.8% !important;
+  }
+  .slide_div2 {
+    position: relative;
+    left: 5%;
+    width: 86.6% !important;
+  }
+  .slide_div3 {
+    position: relative;
+    left: -3.9%;
+    width: 86.6% !important;
+  }
+
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p {
+    width: 71% !important;
+    padding-top: 5%;
+    font-size: 12px;
   }
 }
 
@@ -82,8 +111,27 @@
     max-width: 100vw;
     padding: 0 26px;
   }
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p {
+    width: 75% !important;
+  }
+  .slide_div1 {
+    padding-left: 25px;
+    padding-right: 0px;
+    width: 96% !important;
+  }
+  .slide_div2 {
+    position: relative;
+    left: 0%;
+    width: 92% !important;
+  }
+  .slide_div3 {
+    position: relative;
+    left: -3.9%;
+    width: 92% !important;
+  }
 }
-
 @media (max-width: 540px) {
   .head h3 {
     font-size: 1.6875em;
@@ -94,5 +142,25 @@
   }
   .head {
     max-width: 100vw;
+  }
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p {
+    width: 94% !important;
+  }
+  .slide_div1 {
+    padding-left: 25px;
+    padding-right: 0px;
+    width: 92.5% !important;
+  }
+  .slide_div2 {
+    position: relative;
+    left: 0%;
+    width: 83% !important;
+  }
+  .slide_div3 {
+    position: relative;
+    left: -10%;
+    width: 83% !important;
   }
 }

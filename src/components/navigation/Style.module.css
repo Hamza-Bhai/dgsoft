@@ -1,0 +1,126 @@
+.main_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 999999;
+  width: 100%;
+}
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 60px;
+  padding-top: 53px;
+  padding-right: 30px;
+}
+.main_logo {
+  width: 65px;
+}
+.main_menu {
+  overflow: hidden;
+  position: absolute;
+  right: 45px;
+  height: 100%;
+  /* margin-right: 15px; */
+  margin-top: 7px;
+  cursor: pointer;
+}
+.main_menu:hover .menu1 {
+  right: 0;
+}
+
+.menu {
+  width: 21px;
+  height: 2px;
+  background-color: red;
+  display: block;
+  margin-bottom: 4px;
+}
+.menu1 {
+  position: relative;
+  right: -7px;
+  width: 21px;
+  height: 2px;
+  background-color: red;
+  margin-bottom: 4px;
+  display: block;
+  transition: all 0.5s;
+}
+.menu2 {
+  width: 21px;
+  height: 2px;
+  background-color: #ff4438;
+  display: block;
+}
+.main_div_contact_indicator {
+  position: fixed;
+  right: 25px;
+  bottom: 162px;
+  font-family: "Sailec-lighter";
+  transform: rotate(-90deg);
+  z-index: 99;
+  display: flex;
+}
+.st1 {
+  fill: #ff4438;
+}
+.st1 {
+  animation: blinkingText 0.8s linear infinite;
+}
+@keyframes blinkingText {
+  0% {
+    r: 65;
+  }
+  50% {
+    r: 95;
+  }
+  75% {
+    r: 65;
+  }
+  100% {
+    r: 95;
+  }
+}
+.contact_us {
+  position: relative;
+  color: gray;
+  left: 20px;
+}
+@media only screen and (max-width: 1140px) {
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .main_menu {
+    overflow: hidden;
+    height: 100%;
+    margin-right: -5px;
+    margin-top: 7px;
+  }
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .main_div_contact_indicator {
+    position: fixed;
+    right: -10px;
+    bottom: 162px;
+    font-family: "Sailec-lighter";
+    transform: rotate(-90deg) translateX(-100px);
+    z-index: 99;
+    display: flex;
+  }
+}

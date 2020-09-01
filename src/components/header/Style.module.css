@@ -29,6 +29,7 @@
   height: 100%;
   /* margin-right: 15px; */
   margin-top: 7px;
+  cursor: pointer;
 }
 .menu {
   width: 21px;
@@ -55,9 +56,6 @@
 }
 .main_menu:hover .menu1 {
   right: 0;
-}
-.main_menu {
-  cursor: pointer;
 }
 .heading_div {
   height: 100%;

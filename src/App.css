@@ -29,7 +29,10 @@
   font-family: "Sailec-Medium";
   src: url("./assets/fonts/Sailec-Medium.woff");
 }
-
+* {
+  font-weight: 400;
+  font-family: Sailec, Arial, sans-serif;
+}
 .loader {
   position: fixed;
   top: 100%;
@@ -1404,6 +1407,58 @@ p {
   animation-timing-function: ease-in;
   animation-fill-mode: forwards;
 }
+.bton {
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: 100%;
+}
+.bordr {
+  border: 1px solid #c6c6c7;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  position: relative;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.8s ease;
+}
+.anch:hover .bordr {
+  opacity: 0;
+  transition: all 0.8s ease;
+  transform: scale(1.6);
+}
+.anch:hover .bordrback {
+  opacity: 1;
+  transition: all 0.8s ease;
+  transform: scale(1.6);
+}
+.anch {
+  display: block !important;
+  text-align: center;
+}
+.main_border {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.bordrback {
+  position: absolute;
+  margin-top: 4px;
+  opacity: 0;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background-color: #ff4438;
+  transition: all 0.8s ease;
+}
+.bordr:hover + .bordrback {
+  opacity: 1 !important;
+}
+
 @keyframes mmenu1 {
   0% {
     width: 100vw;

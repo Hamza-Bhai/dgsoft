@@ -7,7 +7,7 @@ import img4 from "../../assets/images/aboutslide4.jpg";
 import img5 from "../../assets/images/aboutslide5.jpg";
 import img6 from "../../assets/images/aboutslide6.jpg";
 import img7 from "../../assets/images/aboutslide7.jpg";
-
+import { BsArrowRightShort } from "react-icons/bs";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function Menslide() {
@@ -80,8 +80,16 @@ export default function Menslide() {
                   <div className={Style.icn}>
                     <div className={Style.circle}>
                       <div className={Style.main_border}>
-                        <div className={Style.bordr}></div>
-                        <div className={Style.bordrback}></div>
+                        <div className={Style.bordr}>
+                          <BsArrowRightShort size="20px" />
+                        </div>
+                        <div className={Style.bordrback}>
+                          <BsArrowRightShort
+                            size="17px"
+                            color="white"
+                            style={{ marginTop: "4px", marginLeft: "4px" }}
+                          />
+                        </div>
                       </div>
                     </div>
                   </div>

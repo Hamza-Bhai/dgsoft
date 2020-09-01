@@ -46,7 +46,7 @@ function Home() {
       <Award />
       <Employer />
       <Offices />
-      <About />
+      <About head="About us" para="Get to know us better." />
       <Footer />
       <Menu />
     </div>

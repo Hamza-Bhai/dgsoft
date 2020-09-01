@@ -1,41 +1,19 @@
-import React, { useRef, useEffect } from "react";
-import { gsap, TweenLite } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useCountUp } from "react-countup";
-export default function Test() {
-  const { countUp, start } = useCountUp({
-    start: 0,
-    end: 64,
-    duration: 1,
-    startOnMount: false,
-  });
-  gsap.registerPlugin(ScrollTrigger);
+import React, { Component } from "react";
+import Carousel from "react-elastic-carousel";
 
-  const contRef = useRef();
-  const main_div = useRef();
-  useEffect(() => {
-    //
-    let timLine = gsap.timeline({
-      scrollTrigger: {
-        trigger: main_div.current,
-        start: "top center",
-        end: "100% top",
-        scrub: true,
-        markers: true,
-      },
-    });
-
-    // timLine.to(contRef.current, {});
-  });
-  return (
-    <div
-      ref={main_div}
-      style={{ height: "100vh", backgroundColor: "red", textAlign: "center" }}
-    >
-      Test
-      <div ref={contRef} id="numbers">
-        {countUp}
+export default class Test extends Component {
+  render() {
+    return (
+      <div>
+        <Carousel showArrows={false} itemsToShow={1}>
+          <div>hamza1</div>
+          <div>hamza2</div>
+          <div>hamza3</div>
+          <div>hamza4</div>
+          <div>hamza5</div>
+          <div>hamza6</div>
+        </Carousel>
       </div>
-    </div>
-  );
+    );
+  }
 }

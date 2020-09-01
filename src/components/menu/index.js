@@ -5,6 +5,7 @@ import { menuRight1 } from "../../redux";
 import { connect } from "react-redux";
 import cn from "classnames";
 import "../../App.css";
+import { Link } from "react-router-dom";
 
 function Menu(props) {
   return (
@@ -29,7 +30,7 @@ function Menu(props) {
             <ul className={Style.nav_main}>
               <li className={Style.li1}>
                 <div id={Style.anc}>
-                  <a href="#">
+                  <Link>
                     <div id={Style.ho1}>
                       <div id={Style.hf} className={Style.icn1}>
                         <span
@@ -52,7 +53,7 @@ function Menu(props) {
                     <p className={Style.txt} id={Style.txt0}>
                       There's no place like it
                     </p>
-                  </a>
+                  </Link>
                 </div>
               </li>
               <li className={Style.li2}>

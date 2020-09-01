@@ -94,7 +94,7 @@ export default function Award() {
             </div>
           </div>
           <div className={Style.right_div}>
-            <img src={imgvalueswide} alt="frame-img" ref={img_slide} />
+            <img src={imgvalueswide} alt="frame-img" ref={img_slide}  />
           </div>
         </section>
       </div>

@@ -2,6 +2,12 @@
   border: 0.5px solid #c6c6c7;
   background-color: #f9f9f9;
 }
+.icn{
+  position: relative;
+  top: 4px;
+  left: 7px;
+  color: #ffffff;
+}
 .anc {
   width: 100%;
   display: flex;
@@ -123,5 +129,16 @@
     align-items: center;
     padding-top: 50px;
     padding-bottom: 30px;
+  }
+  .bordrback {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0px;
+    opacity: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    transition: all 0.8s ease;
+    background-color: #ff4438;
   }
 }
