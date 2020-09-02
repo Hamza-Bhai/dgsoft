@@ -40,6 +40,7 @@ function Home() {
           style={{ height: "0%" }}
         ></div>
       </div>
+      <Menu />,
       <Header txt1="We are an always curious, strategic-creative digital agency." />
       <Services />
       <Slider />
@@ -48,7 +49,6 @@ function Home() {
       <Offices />
       <About head="About us" para="Get to know us better." />
       <Footer />
-      <Menu />
     </div>
   );
 }

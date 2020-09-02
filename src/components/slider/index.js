@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Style from "./Style.module.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default class Slider extends Component {
   constructor(props) {
@@ -199,8 +200,15 @@ export default class Slider extends Component {
                   <li className={Style.list3}>Lufthansa</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -221,8 +229,15 @@ export default class Slider extends Component {
                   <li className={Style.list3_800}>Lufthansa</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -244,8 +259,15 @@ export default class Slider extends Component {
                   <li className={Style.list3}>Franck</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -266,8 +288,15 @@ export default class Slider extends Component {
                   <li className={Style.list3_800}>Lufthansa</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -292,8 +321,15 @@ export default class Slider extends Component {
                   </li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -314,8 +350,15 @@ export default class Slider extends Component {
                   <li className={Style.list3_800}>Lufthansa</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -337,8 +380,15 @@ export default class Slider extends Component {
                   <li className={Style.list3}>Nordeus</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>
@@ -359,8 +409,15 @@ export default class Slider extends Component {
                   <li className={Style.list3_800}>Lufthansa</li>
                   <li>
                     <div className={Style.main_border}>
-                      <div className={Style.bordr}></div>
-                      <div className={Style.bordrback}></div>
+                      <div className={Style.bordr}>
+                        <BsArrowRightShort size="20px" className={Style.farr} />
+                      </div>
+                      <div className={Style.bordrback}>
+                        <BsArrowRightShort
+                          size="15px"
+                          className={Style.riarr}
+                        />
+                      </div>
                     </div>
                   </li>
                 </ul>

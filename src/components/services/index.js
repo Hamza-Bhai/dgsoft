@@ -4,6 +4,7 @@ import videos1 from "../../assets/videos/video1.mp4";
 import videos2 from "../../assets/videos/video2.mp4";
 import videos3 from "../../assets/videos/video3.mp4";
 import videos4 from "../../assets/videos/video4.mp4";
+import { BsArrowRightShort } from "react-icons/bs";
 
 export default function Services() {
   const ref1 = useRef();
@@ -200,8 +201,15 @@ export default function Services() {
             <div className={Style.bton}>
               <a href="" className={Style.anch}>
                 <div className={Style.main_border}>
-                  <div className={Style.bordr}></div>
-                  <div className={Style.bordrback}></div>
+                  <div className={Style.bordr}>
+                    <BsArrowRightShort size="20px" />
+                  </div>
+                  <div className={Style.bordrback}>
+                    <BsArrowRightShort
+                      size="15px"
+                      className={Style.riarr}
+                    />
+                  </div>
                 </div>
                 <span>Explore our Services</span>
               </a>

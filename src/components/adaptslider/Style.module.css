@@ -1,0 +1,136 @@
+.main_div {
+  padding: 118px 0 66px;
+}
+.head {
+  max-width: 75.1vw;
+  margin: 0 auto;
+}
+.tall_title {
+  max-width: 660px;
+  margin-bottom: 38px;
+}
+.split {
+  line-height: 1.15;
+  font-family: Sailec;
+  letter-spacing: -1px;
+  font-size: 2.4375em;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.slide_div1 {
+  padding-left: 12vw;
+  padding-right: 0%;
+  width: 100% !important;
+}
+.slide_div1 img {
+  width: 100%;
+}
+.slide_div1 p,
+.slide_div2 p,
+.slide_div3 p,
+.slide_div4 p {
+  width: 55% !important;
+  font-size: 12px;
+  line-height: 1.73;
+  font-family: Sailec, Arial, sans-serif;
+  padding-top: 1.2%;
+  color: #4b4b4c;
+}
+.slide_div2 {
+  padding-left: 7%;
+  width: 101.2% !important;
+}
+.slide_div2 img {
+  width: 100%;
+}
+.slide_div3 {
+  padding-left: 8%;
+  width: 102.2% !important;
+}
+.slide_div3 img {
+  width: 100%;
+}
+.slide_div4 {
+  padding-left: 9%;
+  width: 103.3% !important;
+}
+.slide_div4 img {
+  width: 100%;
+}
+.arrow {
+  padding-left: 12vw;
+  padding-top: 30px;
+}
+#arr {
+  margin-right: 25px;
+}
+@media (max-width: 1369px) {
+  .slide_div1 {
+    padding-left: 12vw;
+    width: 94% !important;
+  }
+  .slide_div2 {
+    padding-left: 0%;
+    width: 98% !important;
+  }
+  .slide_div3 {
+    padding-left: 5%;
+    width: 102.5% !important;
+  }
+  .slide_div4 {
+    padding-left: 9%;
+    width: 107.3% !important;
+  }
+}
+@media (max-width: 1140px) {
+  .head {
+    max-width: 82.8%;
+    padding: 0;
+  }
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p {
+    width: 71% !important;
+    font-size: 12px;
+  }
+  .slide_div1 {
+    padding-left: 8.5vw;
+  }
+  .arrow {
+    padding-left: 8.5vw;
+  }
+  .slide_div2 {
+    width: 102% !important;
+    padding-left: 0%;
+  }
+  .slide_div3 {
+    padding-left: 9%;
+    width: 110.5% !important;
+  }
+  .slide_div4 {
+    padding-left: 15%;
+    width: 116.7% !important;
+  }
+}
+@media (max-width: 800px) {
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p {
+    width: 75% !important;
+  }
+}
+@media (max-width: 540px) {
+  .head {
+    max-width: calc(100% - 52px);
+  }
+  .split {
+    font-size: 8.59vw;
+    letter-spacing: -0.7px;
+  }
+  .slide_div1 p,
+  .slide_div2 p,
+  .slide_div3 p,
+  .slide_div4 p {
+    width: 100% !important;
+  }
+}

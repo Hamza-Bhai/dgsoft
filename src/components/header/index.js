@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 import Style from "./Style.module.css";
-
-import Navigation from "../navigation";
 import { menuRight } from "../../redux/index";
 import { connect } from "react-redux";
 import cn from "classnames";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 class Header extends Component {
   render() {
+    AOS.init({ once: true });
     return (
       <div className={Style.main_div}>
         <div
@@ -17,6 +18,8 @@ class Header extends Component {
           )}
         >
           <h1
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
             className={cn(Style.heading, this.props.txt2 ? Style.shead : null)}
           >
             {this.props.txt1} <br /> {this.props.txt2}

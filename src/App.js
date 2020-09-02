@@ -7,7 +7,7 @@ import Work from "./pages/work";
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import Navigation from "./components/navigation/";
-import Website from "./components/work/website";
+import Website from "./pages/work/website";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
@@ -38,3 +38,6 @@ function App() {
 }
 
 export default App;
+
+
+

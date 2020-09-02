@@ -16,9 +16,9 @@ export default function Story() {
           <div className={Style.sec1}>
             <h3>
               <div
-                data-aos="slide-up"
-                data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1000"
+                data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom"
+                data-aos-duration="500"
               >
                 Our story
               </div>
@@ -28,9 +28,9 @@ export default function Story() {
             <p>
               <div
                 className={Style.txt1}
-                data-aos="slide-up"
+                data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1000"
+                data-aos-duration="500"
               >
                 Our name is inspired by the Gordian knot and reflects our
                 efforts in
@@ -38,16 +38,16 @@ export default function Story() {
             </p>
             <p className={Style.txt2}>
               <div
-                data-aos="slide-up"
+                data-aos="fade-up"
                 data-aos-anchor-placement="bottom-bottom"
-                data-aos-duration="1000"
+                data-aos-duration="500"
               >
                 resolving business problems.
               </div>
             </p>
           </div>
           <div className={Style.img_div}>
-            <img src={Stimg1} />
+            <img src={Stimg1} data-aos="flip-left" data-aos-duration="500" />
           </div>
         </div>
       </div>
@@ -57,18 +57,36 @@ export default function Story() {
           <div>
             <h3 className={Style.head2}>
               <div className={Style.txt_div}>
-                <div>We are seriously curious</div>
+                <div
+                  data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="500"
+                >
+                  We are seriously curious
+                </div>
               </div>
               <div className={Style.txt_div1}>
-                <div>about our work, and never,</div>
+                <div
+                  data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="500"
+                >
+                  about our work, and never,
+                </div>
               </div>
               <div className={Style.txt_div2}>
-                <div>ever back away from a challenge.</div>
+                <div
+                  data-aos="fade-up"
+                  // data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="500"
+                >
+                  ever back away from a challenge.
+                </div>
               </div>
             </h3>
           </div>
           <div className={Style.img_div1}>
-            <img src={Stimg2} />
+            <img src={Stimg2} data-aos="flip-left" data-aos-duration="500" />
           </div>
         </div>
       </div>
@@ -77,13 +95,31 @@ export default function Story() {
         <div className={Style.tsec}>
           <h3>
             <div className={Style.txt_div3}>
-              <div>To us, it’s not just about having a good idea; it’s</div>
+              <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="500"
+              >
+                To us, it’s not just about having a good idea; it’s
+              </div>
             </div>
             <div className={Style.txt_div4}>
-              <div>about having the right one, one that works and</div>
+              <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="500"
+              >
+                about having the right one, one that works and
+              </div>
             </div>
             <div className={Style.txt_div5}>
-              <div>creates value for our partners and us.</div>
+              <div
+                data-aos="fade-up"
+                data-aos-anchor-placement="bottom-bottom"
+                data-aos-duration="500"
+              >
+                creates value for our partners and us.
+              </div>
             </div>
           </h3>
         </div>

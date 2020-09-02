@@ -185,6 +185,10 @@
   font-family: "Sailec";
   color: white;
 }
+.riarr {
+  margin-top: 5px;
+  margin-left: 5px;
+}
 @media only screen and (max-width: 1140px) {
   #myVideo {
     width: 100%;
@@ -328,6 +332,10 @@
   }
   .icon {
     visibility: visible;
+  }
+  .riarr {
+    margin-top: 5px;
+    margin-left: 0px;
   }
 }
 @media only screen and (min-width: 540px) {

@@ -18,22 +18,19 @@
   padding-right: 0;
 }
 .inaw {
-  /* border: 1px solid; */
   padding: 0;
 }
 .div1 {
   color: #ff4438;
   font-size: 10vw;
   font-family: "Sailec-Bold";
-  padding-bottom: 7px;
-  /* display: none; */
-  /* border: 1px solid; */
 }
 .div2 {
   font-size: 2.2vw;
+  height: 50px;
   color: black;
   font-family: "Sailec";
-  padding-bottom: 10px;
+  padding: 0;
   width: 70%;
   overflow: hidden;
 }
@@ -42,6 +39,9 @@
   font-family: "Sailec";
   width: 85%;
   overflow: hidden;
+}
+.div3 p {
+  line-height: 1.2;
 }
 .right_div {
   width: 32vw;
@@ -53,15 +53,6 @@
   height: 100%;
   object-fit: fill;
 }
-/* .right_div::-webkit-scrollbar {
-  width: 0 !important;
-  height: 0;
-} */
-/* ._iwards {
-  display: inline-block;
-  transform: translateY(40px);
-  opacity: 0;
-} */
 @media only screen and (max-width: 1140px) {
   .sect1 {
     padding-left: 14%;

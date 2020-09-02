@@ -1,8 +1,8 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import WorkHeader from "../../components/workheader";
 import Menu from "../../components/menu";
 import ScrollBar from "../../components/scrollbar";
-import Category from "../../components/work";
+import Category from "../../components/workcards";
 import Aboute from "../../components/aboute";
 import Footer from "../../components/footer";
 
